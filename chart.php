@@ -15,7 +15,7 @@
     $weather->calcSMA($window);
 
     if (count($weather->sma)) {
-        $date   = [];
+        $date  = [];
         $real_t = [];
         $sma_t  = [];
         foreach ($weather->sma as $ind => $val) {
